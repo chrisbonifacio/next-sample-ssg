@@ -1,0 +1,13 @@
+customHeaders:
+  - pattern: '*.js'
+    headers:
+      - key: 'Custom-JS-Header'
+        value: 'should-work'
+      - key: 'Another-Custom-JS-Header'
+        value: 'should-also-work'
+  - pattern: '*.html'
+    headers:
+      - key: 'Custom-HTML-Header'
+        value: 'should-work'
+      - key: 'Another-HTML-Header'
+        value: 'should-also-work'
