@@ -1,7 +1,7 @@
 customHeaders:
   - pattern: '*.js'
     headers:
-      - key: this-header
-        value: should-work
-      - key: another-header
-        value: should-also-work
+      - key: 'this-header'
+        value: 'should-work'
+      - key: 'another-header'
+        value: 'should-also-work'
